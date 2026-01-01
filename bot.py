@@ -5,7 +5,7 @@ from discord.ext import commands
 from datetime import datetime
 import pytz
 
-TOKEN = "MTQ1NjEyMDMzNTY4NTY0ODM5Ng.GWkmf6.-F6iFrcKf4rtZEYikbzUE4UwzmGnp4TzsWDAbY"
+TOKEN = "SIGMA"
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -49,3 +49,4 @@ async def get_time(interaction: discord.Interaction, user: discord.User):
     )
 
 bot.run(TOKEN)
+
